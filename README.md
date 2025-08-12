@@ -1,17 +1,36 @@
 # active-directory-okta-intergration-lab
-This repository contains PowerShell scripts and documentation for setting up a Windows Server Active Directory lab environment integrated with Okta for IAM testing.
+## Overview
+This lab simulates a corporate IT environment using Microsoft Server 2022, Active Directory, and Okta to explore Identity & Access Management, security policies, and automation.
 
 ## Features
-- Automated AD setup with OUs and users
-- Group Policy, DNS, DHCP configuration
-- Okta integration (MFA, SSO, JIT provisioning)
+* Active Directory Setup
 
-## Requirements
-- Windows Server 2022 VM
-- PowerShell 5.1 or later
-- Okta Developer Account
+  * Automated OU creation: IT, HR, Finance, Staff, Corporate.
+  * PowerShell-based bulk user creation with titles, usernames, and initial passwords.
 
-## Usage
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/your-repo.git
+* Security Policies
+  * Screen lock after 300 seconds.
+  * USB device disablement.
+  * Audit logon events.
+  * Disable Command Prompt & PowerShell for non-admins.
+  * Pre-logon legal notice.
+
+* Okta Integration
+   * AD Agent installation.
+   * MFA, Google SSO, and SAML configuration.
+   * All domain users synchronized with Okta.
+
+* Networking
+   * DHCP server setup via second NIC.
+
+* Technical Notes
+   * Password complexity issues initially caused account disablement, which was resolved with updated credentials.
+   * IT staff elevated to AD admins.
+
+* Skills Demonstrated
+   * PowerShell Automation
+   * Active Directory Management
+   * Group Policy Administration
+   * Identity & Access Management (IAM)
+   * Okta Integration
+   * Windows Server Networking
