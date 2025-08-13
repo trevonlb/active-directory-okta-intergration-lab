@@ -1,7 +1,8 @@
 # active-directory-okta-intergration-lab
 ## Overview
-This lab simulates a corporate IT environment using Microsoft Server 2022, Active Directory, and Okta to explore Identity & Access Management, security policies, and automation.
+This lab simulates a corporate IT environment using Microsoft Server 2022, Active Directory, and Okta to implement core Identity & Access Management workflows, essential security policies, and user provisioning automation. It demonstrates practical, end-to-end integration between on-premises directory services and a cloud identity provider, while also incorporating endpoint security controls and role assignment.
 
+The environment is designed to be realistic, modular, and adaptable, reflecting the types of IAM and infrastructure administration tasks performed in enterprise settings.
 ## Features
 * Active Directory Setup
 
