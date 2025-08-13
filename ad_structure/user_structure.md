@@ -34,3 +34,16 @@ The PowerShell script:
 1. Name: Alice Gray
 2. Username: agray
 3. Password: agraylab123
+
+## Issue
+The original PowerShell script set user passwords that did **not** meet the minimum complexity requirements.  
+Because of this, **all created accounts were automatically disabled** after creation.
+
+---
+
+## Resolution (Lab Use Only)
+For recovery purposes in this **lab environment only**:
+1. Password complexity was temporarily disabled.  
+2. All user passwords were reset to `1234567`.  
+3. Each account was manually enabled.  
+4. Normal functionality of the lab environment was restored.
