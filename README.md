@@ -20,9 +20,6 @@ This lab simulates a corporate IT environment using Microsoft Server 2022, Activ
    * MFA, Google SSO, and SAML configuration.
    * All domain users synchronized with Okta.
 
-* Networking
-   * DHCP server setup via second NIC.
-
 * Technical Notes
    * Password complexity issues initially caused account disablement, which was resolved with updated credentials.
    * IT staff elevated to AD admins.
